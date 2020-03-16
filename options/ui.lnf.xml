@@ -1,0 +1,14 @@
+<application>
+  <component name="UISettings">
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
+    <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
+    <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="900" />
+    <option name="EDITOR_TAB_LIMIT" value="15" />
+    <option name="EDITOR_TAB_PLACEMENT" value="3" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
+    <option name="SORT_TABS_ALPHABETICALLY" value="true" />
+    <option name="WIDESCREEN_SUPPORT" value="true" />
+  </component>
+</application>

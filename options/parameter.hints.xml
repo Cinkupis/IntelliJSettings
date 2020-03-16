@@ -1,0 +1,89 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="org.mockito.Matchers.eq(value)" />
+        <added pattern="org.mockito.Mockito.times(wantedNumberOfInvocations)" />
+        <added pattern="com.amazon.adscanner.securitydb.matchers.DomainMatcher.findAllMatches(s,s1,s2,s3,s4)" />
+        <added pattern="com.amazon.adscanner.common.metrics.AdScannerMetrics.addCount(metrics,count)" />
+        <added pattern="com.google.common.collect.ImmutableMap.of(k1,v1,k2,v2,k3,v3)" />
+        <added pattern="com.amazon.adscanner.model.id.CampaignId.buildFromAdScannerId(datasource,adScannerId)" />
+        <added pattern="com.amazon.adscanner.workflow.datacollector.s2s.S2SDataCollectorActivityTest.setupCreativeScanConfigAndCreativeContext(system,renderCount)" />
+        <added pattern="com.amazon.adscanner.dependencies.idm.IdmApiFacadeImplTest.createCampaignWithOptionalAttributes(startDateTime,endDateTime,createdTime,traficker,accountManager,accountExecutive,s2sVendors)" />
+        <added pattern="com.amazon.adscanner.dependencies.idm.IdmApiFacadeImplTest.setupIsCreativeServed(isAssociationRunning,isExistingAssociation,isAdEndDateInTheFuture,isAdRunning,isCampaignRunning)" />
+        <added pattern="com.amazon.adscanner.common.model.User.User(userName,userType)" />
+        <added pattern="com.amazon.adscanner.dependencies.idm.IdmApiFacadeImplTest.createAdGroup(idmAdGroupId,startDate,endDate,isDeleted)" />
+        <added pattern="java.time.Instant.plus(amountToAdd,unit)" />
+        <added pattern="java.time.Instant.minus(amountToSubtract,unit)" />
+        <added pattern="com.amazon.adscanner.common.dao.DynamoDBDao.getAll(hashKeyObj,consistentRead)" />
+        <added pattern="com.amazon.adscanner.common.dao.DynamoDBDao.get(hashKey,consistentRead)" />
+        <added pattern="com.amazon.adscanner.dependencies.idm.IdmApiFacade.getIdmCreative(system,idmCreativeId)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmAdvertiser.IdmAdvertiser(deleted,transactionId,payload,entityId,idmCreatedTime,createdUserId,createdApiClientId,idmLastModifiedTime,lastModifiedUserId,lastModifiedApiClientId,advertiserId,name,industry,country,amazonVendor)" />
+        <added pattern="org.hamcrest.Matchers.is(value)" />
+        <added pattern="com.amazon.adscanner.dependencies.idm.IdmApiFacadeImplTest.createAdGroupCreativeAssociation(isDeleted)" />
+        <added pattern="com.amazon.adscanner.model.idm.User.User(userName,customerId)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmCampaignDeliveryActivationStatus.IdmCampaignDeliveryActivationStatus(transactionId,payload,entityId,idmCreatedTime,createdUserId,createdApiClientId,idmLastModifiedTime,lastModifiedUserId,lastModifiedApiClientId,campaignId,deliveryActivationStatus)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmCampaign.IdmCampaign(deleted,transactionId,payload,entityId,idmCreatedTime,createdUserId,createdApiClientId,idmLastModifiedTime,lastModifiedUserId,lastModifiedApiClientId,campaignId,campaignName,campaignType,cascadeDatesToAds,advertiserId,startDateTime,endDateTime,trafficker,accountManager,accountExecutive)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmAdGroup.IdmAdGroup(deleted,transactionId,payload,entityId,idmCreatedTime,createdUserId,createdApiClientId,idmLastModifiedTime,lastModifiedUserId,lastModifiedApiClientId,adGroupId,name,campaignId,adProductType,startDate,endDate,advancedSegmentTargeting,placements,isContextuallyTargeted,adGroupType,targetingUserLocation)" />
+        <added pattern="com.amazon.adscanner.dependencies.idm.IdmApiFacadeImplTest.createCampaignWithOptionalAttributes(startDateTime,endDateTime,createdTime,traficker,accountManager,accountExecutive)" />
+        <added pattern="com.amazon.adscanner.common.utils.CollectionUtils.listOf(elements)" />
+        <added pattern="org.mockito.MockitoAnnotations.initMocks(testClass)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmAdGroupId.IdmAdGroupId(idmId)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmCreativeId.IdmCreativeId(idmId)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmAdvertiserId.IdmAdvertiserId(idmId)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmCampaignId.IdmCampaignId(idmId)" />
+        <added pattern="com.amazon.adscanner.model.idm.IdmAdGroupCreativeAssociationId.IdmAdGroupCreativeAssociationId(idmId)" />
+        <added pattern="com.amazon.adscanner.common.harhandling.AccessedUrl.AccessedUrl(domain,path)" />
+        <added pattern="com.amazon.adscanner.common.jsonobjects.MatchedUrl.DomainOwnerMatch.DomainOwnerMatch(companyName,companyId)" />
+        <added pattern="org.mockito.Matchers.matches(regex)" />
+        <added pattern="com.amazon.adscanner.workflow.notifiers.s2s.S2SDecisionMessage.VendorDecision.VendorDecision(vendor,restrictions)" />
+        <added pattern="com.amazon.adscanner.workflow.notifiers.s2s.S2SDecisionMessage.S2SDecisionMessage(adId,creativeId,advertiserId,effectiveDate,scanDate,vendors)" />
+        <added pattern="com.amazon.adscanner.test.TestUtils.initialiseAppConfig(applicationName,applicationGroup,domain,extraArgs)" />
+        <added pattern="com.amazon.redpanda.adscanner.workflow.definition.workflows.CreativeScannerWorkflow.RenderResult.RenderResult(allRendersSuccessful,renderCount)" />
+        <added pattern="com.amazon.adscanner.common.harhandling.MultiRenderUrl.fromMultipleRenders(config,fileStore,renderCount,includeUnresponsive)" />
+        <added pattern="com.amazon.adscanner.common.harhandling.CreativeMetadata.fromFilestore(instanceNumber,config,fileStore)" />
+        <added pattern="com.google.common.collect.ImmutableMap.of(k1,v1,k2,v2)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.S2SDomainCheckerTest.dataSinkResult(campaignId,vendorId,ruleType)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.S2SDomainCheckerTest.s2sDataSink(campaignId,vendorId)" />
+        <added pattern="com.amazon.coral.metrics.Metrics.addCount(name,value,unit)" />
+        <added pattern="com.amazon.adscanner.workflow.notifiers.s2s.S2SDecisionMessage.VendorDecision.VendorDecision(vendor,restrictions,relationshipId)" />
+        <added pattern="java.io.File.File(pathname)" />
+        <added pattern="java.util.stream.Collectors.joining(delimiter)" />
+        <added pattern="amazon.odin.awsauth.OdinAWSCredentialsProvider.OdinAWSCredentialsProvider(materialSetName)" />
+        <added pattern="com.amazon.adscanner.workflow.notifiers.resultsparser.PolicyCheckerResultsParser.getApprovedS2SIntents(startTime,scanId,creativeId,campaignId)" />
+        <added pattern="com.amazon.liveconfig.LiveConfig.register(key,defaultValue,handler)" />
+        <added pattern="com.amazon.adscanner.common.harhandling.HarValidatorTest.request(url)" />
+        <added pattern="com.amazon.adscanner.dependencies.email.EmailRecipientGenerator.generateRecipients(ignoreCache,system,context,marketplace)" />
+        <added pattern="org.apache.logging.log4j.Logger.info(s,o)" />
+        <added pattern="com.amazon.adscanner.workflow.notifiers.resultsparser.PolicyCheckerResultsParser.getWhitelistedDomainMatchesWithDuplicates(startTime,scanId,creativeId,campaignId)" />
+        <added pattern="org.hamcrest.Matchers.containsInAnyOrder(items)" />
+        <added pattern="com.amazon.adscanner.common.guice.MetricsModule.MetricsModule(applicationName)" />
+        <added pattern="amazon.platform.config.AppConfig.initialize(appName,appGroup,args)" />
+        <added pattern="com.amazon.adscanner.sdc.notifier.DomainRulesDeploymentApprovalNotifierTest.domainRulesDeploymentApprovalNotifier(todJsonPath)" />
+        <added pattern="com.amazon.adscanner.sdc.domainwhitelisting.DroolsFormattedDomainWhitelistingRule.DroolsFormattedDomainWhitelistingRule(ruleName,droolsCompatibleUrlPattern,vendorName,effectiveDate,expiryDate,campaignCreateDate)" />
+        <added pattern="com.amazon.adscanner.sdc.PolicyRulesSDCConfigValidator.isRulesChangeRatioGreaterThanOrEqualPercent(percentage)" />
+        <added pattern="com.amazon.adscanner.sdc.PolicyRulesSDCConfigValidatorTest.mockRules(numberOfRules)" />
+        <added pattern="com.amazon.adscanner.sdc.PolicyRulesSDCConfigValidatorTest.mockContentComparableRulesDiff(leftCount,rightCount,addedRules,removedRules)" />
+        <added pattern="com.amazon.adscanner.sdc.PolicyRulesSDCConfigValidatorTest.mockDroolsFormattedDomainWhitelistingRule(startInclusive,endExclusive,domainRegex,vendorName)" />
+        <added pattern="org.junit.Assert.assertEquals(expected,actual)" />
+        <added pattern="com.amazon.adscanner.sdc.PolicyRulesSDCConfigValidatorTest.mockDroolsFormattedDomainDataSinkRule(startInclusive,endExclusive,vendorName)" />
+        <added pattern="java.lang.System.getenv(name)" />
+        <added pattern="com.amazonaws.sdc.agent.local.service.impl.SDCSerializedStorageImpl.SDCSerializedStorageImpl(basePath)" />
+        <added pattern="com.amazon.adscannerwebsite.web.RulesUploadServlet.renderSingleValidationFailure(request,response,failureMessage)" />
+        <added pattern="com.amazon.adscanner.sdc.PolicyRulesSDCConfigValidatorTest.mockContentComparableRule(ruleName,dateString)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.DomainCheckerActivityTest.createDomainCheckerWithMockedBaseProvider(urlFilePath,s2sFilePath,creativeContextFactory)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.DomainCheckerActivityTest.createDomainCheckerFromExcelRulesWithMockedBaseProvider(filePath)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.DomainCheckerActivityTest.vendor(id,whitelisted)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.DomainCheckerActivityTest.vendor(id,vendorName)" />
+        <added pattern="java.nio.file.Paths.get(first,more)" />
+        <added pattern="java.lang.String.join(delimiter,elements)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.DomainCheckerTestUtils.setUpStoredHar(fileStore,creativeId,instanceNumber,urls)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.DomainCheckerActivityTest.s2sMatch(vendorId,blacklist)" />
+        <added pattern="com.amazon.adscanner.workflow.policychecker.domainchecker.UrlDomainCheckerTest.urlMatcher(domain,companyName,domainOwnerId)" />
+      </blacklist>
+    </blacklists>
+    <disabledLanguages>
+      <language id="JAVA" />
+    </disabledLanguages>
+  </component>
+</application>

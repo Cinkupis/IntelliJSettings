@@ -1,0 +1,8 @@
+CheckStyle-IDEA
+Lombook Plugin
+ProGuard Unscramble Plugin
+SnakeYAML plugin
+com.amazon.ijbp
+com.intellij.marketplace
+com.jetbrains.plugins.ini4idea
+com.taff.plugin.orchide

@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="testt" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="PRODUCE_SAM_MERGE_FILE" type="PLAIN_TEXT" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+    </extensionMap>
+  </component>
+</application>
